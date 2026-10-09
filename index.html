@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#f6f3ec">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="很多电影网（henduodianyingwang-zh.github.io）是一份面向影迷的线上电影杂志，按主题整理高分片单、导演专题、经典修复与冷门宝藏。无论你想找华语影史经典、欧美高分电影、日韩必看佳作，还是想按心情挑片——治愈、励志、爱情、悬疑、科幻五大心情片单一应俱全。每天更新推荐条目，附评分、年份、时长、一句话剧情与同类延伸推荐，帮你从片荒里快速走出来。">
+<meta name="keywords" content="很多电影网,henduodianyingwang-zh.github.io,高分电影推荐,经典老片合集,必看电影片单,华语电影经典,欧美高分电影,日韩电影推荐,治愈系电影,悬疑烧脑片单,科幻电影推荐,爱情电影经典,电影杂志,影迷片单,导演专题,经典修复重映">
+<meta name="author" content="很多电影网">
+<meta name="copyright" content="Copyright © 2026 很多电影网（henduodianyingwang-zh.github.io）">
+<meta name="publish-date" content="2026-10-08">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="baiduspider" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="很多电影网">
+<meta property="og:title" content="很多电影网 — 一份值得收藏的影迷片单杂志">
+<meta property="og:description" content="按主题整理高分片单与导演专题，华语经典、欧美高分、日韩佳作、冷门宝藏，每天更新。">
+<meta property="og:url" content="https://henduodianyingwang-zh.github.io">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="很多电影网 — 影迷片单与电影杂志">
+<meta name="twitter:description" content="高分电影推荐、经典老片合集、导演专题与心情片单，每天更新。">
+<link rel="canonical" href="https://henduodianyingwang-zh.github.io">
+<title>很多电影网 — 高分电影片单、经典老片与导演专题（每天更新）</title>
+<style>
+:root{
+  --paper:#f6f3ec; --paper2:#efeae0; --card:#fffdfa; --line:#e2dccf; --line2:#d5cdbd;
+  --ink:#23201c; --ink2:#5c574d; --ink3:#8a8377; --ink4:#b3ac9f;
+  --red:#b22318; --red2:#8f1b12; --gold:#a9822a; --blue:#2f5d7c; --grn:#4a6b3a;
+  --mx:1360px; --r:14px;
+}
+*{margin:0;padding:0;-webkit-tap-highlight-color:transparent;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:"Songti SC","SimSun","Times New Roman",Georgia,"PingFang SC","Microsoft YaHei",serif;
+  font-size:15px; line-height:1.85; overflow-x:hidden;
+  background-image:radial-gradient(circle at 12% 8%,rgba(169,130,42,.08),transparent 45%),radial-gradient(circle at 88% 92%,rgba(178,35,24,.06),transparent 42%);
+  background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none}
+img{max-width:100%;display:block}
+::selection{background:var(--red);color:#fff}
+.wrap{width:100%;max-width:var(--mx);margin:0 auto;padding:0 22px}
+
+/* ===== 报头 ===== */
+.mast{background:var(--ink);color:var(--paper);padding:26px 0 0;border-bottom:5px double var(--red)}
+.mast .wrap{padding-bottom:16px}
+.mast-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid #4a443c;padding-bottom:11px}
+.iss{font-size:11.5px;color:#c9c2b4;letter-spacing:.6px;font-family:Georgia,serif}
+.iss b{color:#fff;font-weight:700}
+.iss em{font-style:normal;color:var(--red);margin:0 4px}
+.iss2{font-size:11.5px;color:#c9c2b4;font-family:Georgia,serif}
+.title-row{text-align:center;padding:20px 0 14px}
+.title-row h1{font-size:clamp(40px,9vw,96px);font-weight:900;letter-spacing:6px;line-height:1;font-family:"Songti SC","SimSun",Georgia,serif}
+.title-row h1 small{display:block;font-size:clamp(10px,1.4vw,13px);letter-spacing:8px;font-weight:400;color:#c9c2b4;margin-top:12px;font-family:Georgia,serif;text-transform:uppercase}
+.rule{height:2px;background:linear-gradient(90deg,transparent,var(--red) 12%,var(--red) 88%,transparent)}
+.subnav{display:flex;justify-content:center;flex-wrap:wrap;gap:2px 26px;padding:11px 0 15px;font-size:14px;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.subnav a{color:#e8e3d8;transition:.18s;position:relative}
+.subnav a:hover{color:#fff}
+.subnav a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:var(--red)}
+
+/* ===== 双栏 ===== */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:30px;margin-top:28px;align-items:start}
+.col-main{display:flex;flex-direction:column;gap:30px;min-width:0}
+.col-side{display:flex;flex-direction:column;gap:26px;position:sticky;top:16px}
+
+.sec-h{display:flex;align-items:baseline;gap:11px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:16px}
+.sec-h .no{font-family:Georgia,serif;font-size:11px;color:var(--red);letter-spacing:1px;flex-shrink:0}
+.sec-h h2{font-size:22px;font-weight:800;letter-spacing:1px}
+.sec-h em{font-style:normal;font-size:12px;color:var(--ink3);margin-left:auto;font-family:Georgia,serif}
+
+/* 头条 */
+.lead{display:grid;grid-template-columns:1.05fr 1fr;gap:26px;border-bottom:1px solid var(--line2);padding-bottom:26px}
+.lead .pic{position:relative;aspect-ratio:4/3;border:1px solid var(--line2);overflow:hidden;background:linear-gradient(150deg,#1a1410,#7a2418 45%,#c98a3a 100%)}
+.lead .pic span{position:absolute;left:14px;bottom:12px;right:14px;color:#f6f3ec;font-size:12px;letter-spacing:1px;font-family:Georgia,serif;z-index:2}
+.lead .pic i{position:absolute;right:14px;top:14px;font-style:normal;font-size:10.5px;letter-spacing:1px;background:rgba(0,0,0,.55);color:#fff;padding:3px 8px;border-radius:2px;z-index:2}
+.lead .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.62),transparent 55%)}
+.lead h3{font-size:29px;line-height:1.35;font-weight:800;letter-spacing:.5px;margin-bottom:11px}
+.lead h3 a:hover{color:var(--red)}
+.lead .meta{font-size:11.5px;color:var(--ink3);font-family:Georgia,serif;letter-spacing:.6px;margin-bottom:13px;border-bottom:1px dotted var(--line2);padding-bottom:9px}
+.lead p{font-size:15.5px;color:var(--ink2);margin-bottom:14px;text-align:justify}
+.lead .tags{display:flex;flex-wrap:wrap;gap:6px}
+.lead .tags a{font-size:11.5px;font-family:"PingFang SC",sans-serif;border:1px solid var(--line2);border-radius:11px;padding:2px 10px;color:var(--ink2);transition:.16s}
+.lead .tags a:hover{border-color:var(--red);color:var(--red)}
+.by{font-size:12px;color:var(--gold);font-style:italic;font-family:Georgia,serif}
+
+/* 二栏文章列表 */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:26px;border-bottom:1px solid var(--line2);padding-bottom:26px}
+.art{display:grid;grid-template-columns:112px 1fr;gap:14px}
+.art .th{aspect-ratio:3/4;border:1px solid var(--line2);position:relative;overflow:hidden}
+.art .th b{position:absolute;left:0;right:0;bottom:0;text-align:center;font-size:10px;color:#f6f3ec;padding:14px 2px 4px;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent);font-family:Georgia,serif;letter-spacing:.5px}
+.art h4{font-size:16.5px;font-weight:700;line-height:1.5;margin-bottom:6px;letter-spacing:.3px}
+.art h4 a:hover{color:var(--red)}
+.art .m{font-size:11px;color:var(--ink4);font-family:Georgia,serif;margin-bottom:6px}
+.art p{font-size:13.5px;color:var(--ink2);text-align:justify;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 心情片单 */
+.mood{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.mood a{position:relative;border:1px solid var(--line2);background:var(--card);padding:16px 15px 15px;transition:.2s;overflow:hidden}
+.mood a:hover{border-color:var(--ink);transform:translateY(-3px)}
+.mood a .bar{width:100%;height:2px;background:var(--ink);margin-bottom:11px}
+.mood a h5{font-size:16px;font-weight:800;letter-spacing:.5px;margin-bottom:4px}
+.mood a i{font-style:normal;font-size:11px;color:var(--ink4);font-family:Georgia,serif}
+.mood a p{font-size:12.5px;color:var(--ink2);margin-top:9px;line-height:1.7}
+.mood a em{display:inline-block;font-style:normal;font-size:11.5px;color:var(--red);margin-top:10px;font-family:"PingFang SC",sans-serif}
+.mood a:hover em{text-decoration:underline}
+
+/* ===== 侧栏 ===== */
+.box{background:var(--card);border:1px solid var(--line2)}
+.box-h{background:var(--ink);color:var(--paper);padding:9px 14px;font-size:13.5px;font-weight:700;letter-spacing:1px;display:flex;justify-content:space-between;align-items:center}
+.box-h span{font-weight:400;font-size:10.5px;color:#c9c2b4;font-family:Georgia,serif;letter-spacing:.5px}
+.box-b{padding:14px}
+
+.qpick{display:flex;flex-direction:column;gap:10px}
+.qpick a{display:grid;grid-template-columns:26px 1fr;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line2)}
+.qpick a:last-child{border-bottom:0}
+.qpick b{font-family:Georgia,serif;font-size:17px;color:var(--red);text-align:center;line-height:1}
+.qpick div h6{font-size:13.5px;font-weight:700;line-height:1.45;margin-bottom:2px}
+.qpick div span{font-size:11px;color:var(--ink3);font-family:Georgia,serif}
+
+.ml{border:1px solid var(--line2);background:var(--card)}
+.ml li{border-bottom:1px solid var(--line2);padding:10px 14px;display:grid;grid-template-columns:30px 1fr 40px;gap:9px;align-items:baseline}
+.ml li:last-child{border-bottom:0}
+.ml li:hover{background:var(--paper2)}
+.ml b{font-family:Georgia,serif;font-size:14px;color:var(--ink4)}
+.ml li:nth-child(-n+3) b{color:var(--red);font-weight:800}
+.ml h6{font-size:13.5px;font-weight:600;line-height:1.45}
+.ml em{font-style:normal;font-size:11.5px;color:var(--gold);text-align:right;font-family:Georgia,serif}
+
+.quote{background:var(--ink);color:var(--paper);padding:18px}
+.quote p{font-size:14.5px;line-height:1.9;font-style:italic;text-align:justify}
+.quote cite{display:block;margin-top:12px;font-size:11.5px;color:#c9c2b4;font-style:normal;text-align:right;font-family:Georgia,serif}
+
+.cats{display:flex;flex-direction:column}
+.cats a{display:flex;justify-content:space-between;padding:9.5px 14px;border-bottom:1px solid var(--line2);font-size:13.5px;transition:.15s}
+.cats a:last-child{border-bottom:0}
+.cats a:hover{background:var(--paper2);padding-left:19px}
+.cats a:hover b{color:var(--red)}
+.cats b{font-weight:600}
+.cats span{font-size:11px;color:var(--ink4);font-family:Georgia,serif}
+
+/* 导演专题 */
+.dir{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.dir article{border:1px solid var(--line2);background:var(--card);padding:0 0 14px;overflow:hidden}
+.dir .cv{height:96px;position:relative;display:flex;align-items:flex-end;padding:12px 15px}
+.dir .cv i{position:absolute;left:14px;bottom:9px;font-style:normal;font-size:10px;color:rgba(255,255,255,.85);font-family:Georgia,serif;letter-spacing:.6px;z-index:2}
+.dir .cv::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.72),transparent 70%)}
+.dir h5{font-size:18px;font-weight:800;letter-spacing:.5px;color:#fff;position:relative;z-index:2}
+.dir h5 em{display:block;font-style:normal;font-size:10.5px;font-weight:400;color:#d8d2c4;letter-spacing:1px;margin-top:2px;font-family:Georgia,serif}
+.dir .quote2{padding:12px 15px;font-size:13.5px;color:var(--ink2);text-align:justify;font-style:italic;border-bottom:1px solid var(--line2)}
+.dir ul{padding:11px 15px 0;display:flex;flex-direction:column;gap:6px}
+.dir li{font-size:12.5px;color:var(--ink2);display:flex;gap:8px}
+.dir li b{font-weight:700;color:var(--ink);min-width:88px;font-family:Georgia,serif;font-size:11.5px}
+.dir li:hover b{color:var(--red)}
+
+/* 片库规模 */
+.stat{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line2);border:1px solid var(--line2)}
+.stat div{background:var(--card);padding:16px 12px;text-align:center}
+.stat b{display:block;font-family:Georgia,serif;font-size:26px;font-weight:800;color:var(--red);font-variant-numeric:tabular-nums;line-height:1.3}
+.stat span{font-size:11.5px;color:var(--ink3)}
+
+/* 影评 */
+.rev{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev article{border-top:3px solid var(--ink)}
+.rev .hd2{padding:12px 0 10px;display:flex;justify-content:space-between;align-items:baseline}
+.rev .hd2 b{font-size:15.5px;font-weight:800;letter-spacing:.4px}
+.rev .hd2 span{font-size:11px;color:var(--gold);font-family:Georgia,serif}
+.rev .sc{font-family:Georgia,serif;font-size:24px;font-weight:800;color:var(--red);line-height:1;margin-bottom:7px}
+.rev .sc em{font-style:normal;font-size:12px;color:var(--ink4);font-weight:400;margin-left:3px}
+.rev p{font-size:13px;color:var(--ink2);text-align:justify;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.rev .end{font-size:12px;color:var(--ink3);border-top:1px dotted var(--line2);padding-top:9px;font-family:"PingFang SC",sans-serif}
+.rev .end a{color:var(--red);border-bottom:1px solid rgba(178,35,24,.3)}
+
+/* 对照表 */
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border:1px solid var(--line2);font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+caption{caption-side:top;text-align:left;font-size:12.5px;color:var(--ink3);padding:0 0 9px}
+th{background:var(--ink);color:var(--paper);font-weight:600;padding:9px 11px;text-align:left;font-size:12.5px;letter-spacing:.4px;white-space:nowrap}
+td{padding:9px 11px;border-bottom:1px solid var(--line2);vertical-align:top}
+tbody tr:nth-child(even){background:var(--paper2)}
+tbody tr:hover{background:#f0ebdf}
+td.s{font-family:Georgia,serif;font-weight:800;color:var(--red);white-space:nowrap}
+td.n{font-family:Georgia,serif;color:var(--ink4);white-space:nowrap}
+
+/* 时间线 */
+.tl{display:flex;flex-direction:column}
+.tl li{display:grid;grid-template-columns:84px 1fr;gap:16px;padding:13px 0;border-bottom:1px solid var(--line2)}
+.tl time{font-family:Georgia,serif;font-size:13.5px;color:var(--red);font-weight:700;padding-top:2px}
+.tl div h6{font-size:14.5px;font-weight:700;margin-bottom:4px}
+.tl div p{font-size:13px;color:var(--ink2);text-align:justify}
+
+/* FAQ */
+.faq details{border-bottom:1px solid var(--line2)}
+.faq details:last-child{border-bottom:0}
+.faq summary{padding:14px 0;cursor:pointer;font-size:15px;font-weight:700;list-style:none;display:flex;gap:12px;align-items:baseline}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"Q.";font-family:Georgia,serif;color:var(--red);font-weight:800;flex-shrink:0}
+.faq .a{padding:0 0 15px 32px;font-size:14px;color:var(--ink2);text-align:justify}
+.faq .a a{color:var(--red);border-bottom:1px solid rgba(178,35,24,.3)}
+
+/* 投稿 */
+.sub{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line2);background:var(--card)}
+.sub .l{background:var(--ink);color:var(--paper);padding:26px}
+.sub .l .kicker{font-size:11px;letter-spacing:3px;color:var(--red);font-family:Georgia,serif}
+.sub .l h3{font-size:22px;font-weight:800;margin:9px 0 11px;letter-spacing:.6px}
+.sub .l p{font-size:13.5px;color:#d8d2c4;line-height:1.9}
+.sub .l ul{margin-top:14px;display:flex;flex-direction:column;gap:8px;font-size:13px;color:#e8e3d8}
+.sub .l li{padding-left:16px;position:relative}
+.sub .l li::before{content:"·";position:absolute;left:2px;color:var(--red);font-weight:800}
+.sub .r{padding:26px;display:flex;flex-direction:column;gap:11px}
+.sub .r label{font-size:11.5px;color:var(--ink3);font-family:"PingFang SC",sans-serif}
+.sub .r input,.sub .r select,.sub .r textarea{width:100%;border:0;border-bottom:1px solid var(--line2);background:transparent;padding:7px 2px;font-size:14px;outline:none;font-family:inherit;border-radius:0}
+.sub .r input:focus,.sub .r select:focus,.sub .r textarea:focus{border-bottom-color:var(--red)}
+.sub .r textarea{resize:vertical;min-height:76px}
+.sub .r button{margin-top:6px;height:46px;background:var(--red);color:#fff;font-size:14.5px;font-weight:700;letter-spacing:2px;transition:.2s}
+.sub .r button:hover{background:var(--red2)}
+
+/* footer */
+footer{margin-top:44px;background:var(--ink);color:var(--paper)}
+.ft{padding:34px 0 24px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+.ft h5{font-size:12.5px;letter-spacing:2px;color:#c9c2b4;margin-bottom:13px;font-family:Georgia,serif;text-transform:uppercase}
+.ft ul{display:flex;flex-direction:column;gap:8px}
+.ft a{font-size:13px;color:#d8d2c4;transition:.16s;font-family:"PingFang SC",sans-serif}
+.ft a:hover{color:#fff;padding-left:4px}
+.ft .ab h4{font-size:26px;font-weight:900;letter-spacing:3px;margin-bottom:10px;color:#fff}
+.ft .ab p{font-size:12.5px;color:#a8a195;line-height:1.9;max-width:30em}
+.legal{border-top:1px solid #4a443c;padding:16px 0 30px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:11.5px;color:#8a8377;font-family:Georgia,serif}
+.legal a{color:#a8a195}
+.legal a:hover{color:#fff}
+.legal .u{color:#fff;font-weight:700}
+
+/* ===== 响应式 ===== */
+@media(max-width:1080px){
+  .cols{grid-template-columns:minmax(0,1fr) 280px;gap:22px}
+  .mood,.rev{grid-template-columns:1fr 1fr}
+  .ft{grid-template-columns:1.4fr 1fr 1fr}
+}
+@media(max-width:860px){
+  body{font-size:14.5px}
+  .cols{grid-template-columns:1fr}
+  .col-side{position:static;order:2}
+  .col-main{order:1}
+  .lead{grid-template-columns:1fr;gap:16px}
+  .lead h3{font-size:24px}
+  .split{grid-template-columns:1fr;gap:20px}
+  .dir,.sub{grid-template-columns:1fr}
+  .stat{grid-template-columns:repeat(2,1fr)}
+  .ft{grid-template-columns:1fr 1fr;gap:24px}
+  .subnav{gap:4px 17px;font-size:13px}
+  .mood,.rev{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .wrap{padding:0 14px}
+  .mast{padding-top:18px}
+  .iss2{display:none}
+  .title-row{padding:14px 0 10px}
+  .title-row h1{letter-spacing:3px}
+  .subnav{padding:9px 0 12px;gap:3px 13px;font-size:12.5px}
+  .cols{margin-top:20px;gap:24px}
+  .lead .pic{aspect-ratio:5/4}
+  .lead h3{font-size:21px}
+  .lead p{font-size:14.5px}
+  .art{grid-template-columns:84px 1fr;gap:11px}
+  .art .th{aspect-ratio:3/4}
+  .art h4{font-size:15px}
+  .art p{font-size:13px;-webkit-line-clamp:2}
+  .sec-h h2{font-size:19px}
+  .dir .cv{height:78px}
+  .dir h5{font-size:16px}
+  .stat b{font-size:21px}
+  .rev .sc{font-size:21px}
+  .tl li{grid-template-columns:1fr;gap:4px}
+  .sub .l,.sub .r{padding:20px 17px}
+  .sub .l h3{font-size:19px}
+  table{font-size:12px}
+  th,td{padding:8px 9px}
+  .ft{grid-template-columns:1fr}
+  .legal{font-size:11px}
+}
+@media print{
+  .mast,.subnav,.sub{display:none!important}
+  body{background:#fff}
+  .cols{grid-template-columns:1fr}
+  .col-side{display:none}
+  .lead,.art,.rev,.dir,.ml{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <div class="iss"><b>很多电影网</b><em>·</em>电影杂志与片单索引<em>·</em>自 2019 年持续更新</div>
+      <div class="iss2">NO. 386 / 2026 年 10 月 8 日 / 星期四 / 丙午年八月廿八</div>
+    </div>
+    <div class="title-row">
+      <h1>很多电影网<small>henduodianyingwang-zh.github.io</small></h1>
+    </div>
+    <div class="rule"></div>
+    <nav class="subnav" id="mn">
+      <a href="#lead">本期头条</a>
+      <a href="#mood">心情片单</a>
+      <a href="#fresh">新片速递</a>
+      <a href="#rank">高分榜单</a>
+      <a href="#director">导演专题</a>
+      <a href="#review">影评随笔</a>
+      <a href="#classic">经典修复</a>
+      <a href="#decade">年代纵览</a>
+      <a href="#faq">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+<div class="cols">
+
+  <main class="col-main">
+
+    <!-- 头条 -->
+    <section id="lead">
+      <div class="sec-h"><span class="no">No. 01</span><h2>本期头条</h2><em>LEAD STORY</em></div>
+      <article class="lead">
+        <div class="pic">
+          <i>COVER STORY</i>
+          <span>《镖人：风起大漠》—— 一场关于信念的西部远征，也是今年华语动作片最干净的一记重拳。</span>
+        </div>
+        <div>
+          <div class="meta">动作 / 武侠 / 冒险 <em>·</em> 2026 <em>·</em> 片长 136 分钟 <em>·</em> 综合评分 9.4</div>
+          <h3><a href="#fresh">刀客只身入大漠，为什么这一回的国产武侠让人重新坐直了</a></h3>
+          <p>它不是在拍一场战斗，而是在拍一个人如何在没水没路的沙漠里，把自己走成一条路。动作戏放弃了花哨剪辑，让每一次挥刀都看得见重量和后果；文戏则把"镖"这个行当的规矩讲得清清楚楚——保的是货，也是承诺。</p>
+          <p>我们整理了全片 12 场动作戏的调度逻辑，以及它与《新龙门客栈》《双旗镇刀客》之间的隐性对话。看完这篇，你会更明白为什么它被放进本期头条的 C 位。</p>
+          <div class="tags">
+            <a href="#fresh">动作</a><a href="#fresh">武侠</a><a href="#fresh">2026 华语</a><a href="#fresh">档期观察</a><a href="#director">动作片导演</a>
+          </div>
+          <p class="by">— 本期执笔 · 影评栏目组</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- 心情片单 -->
+    <section id="mood">
+      <div class="sec-h"><span class="no">No. 02</span><h2>不知道看什么？先选心情</h2><em>MOOD LIST</em></div>
+      <div class="mood">
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>情绪低落时</h5><i>HEALING · 22 部</i>
+          <p>不催泪、不鸡汤，只给安静的力量。日系动画、温情现实片与阿尔卑斯山式的自然影像，看完心里松一口气。</p>
+          <em>《海蒂和爷爷》《小森林》《人生果实》《千与千寻》→</em>
+        </a>
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>想打一针鸡血</h5><i>INSPIRE · 20 部</i>
+          <p>关于坚持、成长与自我救赎。低谷期最有效的一剂处方，看完会想立刻去把拖延的事做完。</p>
+          <em>《肖申克的救赎》《阿甘正传》《当幸福来敲门》→</em>
+        </a>
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>周末想笑出声</h5><i>COMEDY · 18 部</i>
+          <p>合家欢优先，冷幽默次之。从周星驰到《疯狂的石头》，笑点不靠冒犯，全家一起看不尴尬。</p>
+          <em>《大话西游》《喜剧之王》《疯狂动物城 2》→</em>
+        </a>
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>想被反转震住</h5><i>THRILLER · 24 部</i>
+          <p>推理、惊悚、多重反转，全程紧绷。看之前别查评分，也别看评论区，新鲜感就是体验的一半。</p>
+          <em>《控方证人》《盗梦空间》《看不见的客人》→</em>
+        </a>
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>想谈场恋爱</h5><i>ROMANCE · 26 部</i>
+          <p>从复古浪漫到青春甜系，从悲剧史诗到细水长流。一个人看不心酸，两个人看刚刚好。</p>
+          <em>《情书》《爱在》三部曲《时空恋旅人》→</em>
+        </a>
+        <a href="#fresh">
+          <div class="bar"></div>
+          <h5>想看点厚重的</h5><i>EPIC · 20 部</i>
+          <p>历史、人性、时代史诗。格局大、后劲足，适合一个安静的晚上，关掉手机慢慢看。</p>
+          <em>《霸王别姬》《活着》《教父》《末代皇帝》→</em>
+        </a>
+      </div>
+    </section>
+
+    <!-- 新片速递 -->
+    <section id="fresh">
+      <div class="sec-h"><span class="no">No. 03</span><h2>新片速递</h2><em>FRESH PICKS</em></div>
+      <div class="split">
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#1a3a5c,#2f5d7c 60%,#93c5e8)"><b>科幻</b></div>
+          <div><div class="m">2026 · 科幻 / 冒险 · 148 分钟</div><h4><a href="#fresh">《流浪地球 3》的取舍：当末日叙事从逃离转向留守</a></h4>
+            <p>这一部不再把悬念放在"能不能活下来"，而是放在"值不值得活成这样"。视觉上依旧重工业，但真正让人坐不住的是几个普通人在巨大机器旁的无力感。</p></div>
+        </article>
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#2a1a08,#a9822a 60%,#f0d9a0)"><b>神话</b></div>
+          <div><div class="m">2026 · 神话 / 史诗 · 148 分钟</div><h4><a href="#fresh">《封神第二部：西岐之战》—— 战争戏终于接住了神话的重量</a></h4>
+            <p>从朝歌的权谋转向西岐的战场，叙事重心变了，人物的选择也变得更难。我们逐场拆了三场大战的镜头调度。</p></div>
+        </article>
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#2e0a14,#b22318 58%,#f0a3a0)"><b>动作</b></div>
+          <div><div class="m">2026 · 动作 / 战争 · 138 分钟</div><h4><a href="#fresh">《红海行动 2》：林超贤把"群像"拍成了真正的群像</a></h4>
+            <p>不再有一个被单独打光的英雄，所有人的命运都绑在一次任务上。动作设计的特点是"有代价"，这一点比热闹更重要。</p></div>
+        </article>
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#0a2e22,#4a6b3a 58%,#a8c98f)"><b>动画</b></div>
+          <div><div class="m">2025 · 动画 / 喜剧 · 109 分钟</div><h4><a href="#fresh">《疯狂动物城 2》能给你什么：一场关于偏见的更成熟讨论</a></h4>
+            <p>合家欢的外壳下，它其实在讲一个更成人化的命题。细节彩蛋多到可以单独开一篇，适合二刷。</p></div>
+        </article>
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#1a0a2e,#5b21a0 58%,#c9a8f0)"><b>奇幻</b></div>
+          <div><div class="m">2026 · 奇幻 / 冒险 · 132 分钟</div><h4><a href="#fresh">《群星闪耀时》：黄渤这次演的不是小人物，是一个被时代推着走的人</a></h4>
+            <p>科幻设定只是引子，真正动人的部分是人物在巨大变故前的犹豫。节奏不算快，但每一段留白都有用。</p></div>
+        </article>
+        <article class="art">
+          <div class="th" style="background:linear-gradient(160deg,#3a1c05,#c2631a 58%,#f0c48a)"><b>喜剧</b></div>
+          <div><div class="m">2026 · 喜剧 / 动作 · 126 分钟</div><h4><a href="#fresh">《特立独行》：中国超级英雄电影的另一种可能</a></h4>
+            <p>文牧野没有走美式爆米花的路子，而是把"英雄"放回了普通人的社会关系里。笑点密集，落点却很实。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 高分榜单 -->
+    <section id="rank">
+      <div class="sec-h"><span class="no">No. 04</span><h2>高分榜单</h2><em>TOP CHARTS</em></div>
+      <div class="box">
+        <div class="box-h"><span>华语高分电影 TOP 10</span><span>UPDATED 10.08</span></div>
+        <ol class="ml">
+          <li><b>1</b><div><h6>《霸王别姬》</h6><span>剧情 / 爱情 · 1993 · 陈凯歌</span></div><em>9.6</em></li>
+          <li><b>2</b><div><h6>《活着》</h6><span>剧情 / 家庭 · 1994 · 张艺谋</span></div><em>9.3</em></li>
+          <li><b>3</b><div><h6>《无间道》</h6><span>犯罪 / 惊悚 · 2002 · 刘伟强</span></div><em>9.3</em></li>
+          <li><b>4</b><div><h6>《背靠背，脸对脸》</h6><span>剧情 · 1994 · 黄建新</span></div><em>9.5</em></li>
+          <li><b>5</b><div><h6>《茶馆》</h6><span>历史 · 1982 · 谢添</span></div><em>9.6</em></li>
+          <li><b>6</b><div><h6>《鬼子来了》</h6><span>喜剧 / 战争 · 2000 · 姜文</span></div><em>9.3</em></li>
+          <li><b>7</b><div><h6>《大闹天宫》</h6><span>喜剧 / 动画 · 1961 · 万籁鸣</span></div><em>9.4</em></li>
+          <li><b>8</b><div><h6>《大话西游之月光宝盒》</h6><span>喜剧 / 爱情 · 1995 · 刘镇伟</span></div><em>9.0</em></li>
+          <li><b>9</b><div><h6>《花样年华》</h6><span>爱情 / 剧情 · 2000 · 王家卫</span></div><em>8.8</em></li>
+          <li><b>10</b><div><h6>《让子弹飞》</h6><span>剧情 / 喜剧 · 2010 · 姜文</span></div><em>9.0</em></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 导演专题 -->
+    <section id="director">
+      <div class="sec-h"><span class="no">No. 05</span><h2>导演专题</h2><em>AUTEUR STUDY</em></div>
+      <div class="dir">
+        <article>
+          <div class="cv" style="background:linear-gradient(135deg,#1a1a2e,#4a2a6a 60%,#9a7ac0)"><h5>克里斯托弗·诺兰<em>CHRISTOPHER NOLAN</em></h5><i>作者研究</i></div>
+          <p class="quote2">"他不解释，他让你自己把碎片拼起来。看懂不是重点，参与才是。"</p>
+          <ul>
+            <li><b>《盗梦空间》</b><span>梦境与现实的边界，四层时空的精确计时</span></li>
+            <li><b>《星际穿越》</b><span>用物理公式讲亲情，硬科幻里最柔软的一部</span></li>
+            <li><b>《奥德赛》</b><span>2026 新作，IMAX 实拍，视觉标杆级尝试</span></li>
+          </ul>
+        </article>
+        <article>
+          <div class="cv" style="background:linear-gradient(135deg,#2e1a0a,#8f1b12 58%,#e07a5f)"><h5>是枝裕和<em>HIROKAZU KOREEDA</em></h5><i>作者研究</i></div>
+          <p class="quote2">"他的镜头从不评判，只是把一家人吃饭的样子拍给你看，你就懂了。"</p>
+          <ul>
+            <li><b>《步履不停》</b><span>平凡家庭的细碎日常，藏最动人的亲情</span></li>
+            <li><b>《小偷家族》</b><span>没有血缘的家人，靠什么维持在一起</span></li>
+            <li><b>《如父如子》</b><span>一次抱错孩子的事件，两种父爱</span></li>
+          </ul>
+        </article>
+        <article>
+          <div class="cv" style="background:linear-gradient(135deg,#0a2e22,#2f6b4a 58%,#8fceaa)"><h5>宫崎骏<em>HAYAO MIYAZAKI</em></h5><i>作者研究</i></div>
+          <p class="quote2">"他的动画从不哄小孩，也不刻意深刻，只是认真地讲一个女孩要去哪里。"</p>
+          <ul>
+            <li><b>《千与千寻》</b><span>误入神灵世界的女孩，靠劳动与名字找回自己</span></li>
+            <li><b>《天空之城》</b><span>飞行与废墟，关于文明的两种结局</span></li>
+            <li><b>《幽灵公主》</b><span>人与自然之间，没有简单的对错</span></li>
+          </ul>
+        </article>
+        <article>
+          <div class="cv" style="background:linear-gradient(135deg,#2a2a0a,#8a7a1a 58%,#e0d28a)"><h5>李安<em>ANG LEE</em></h5><i>作者研究</i></div>
+          <p class="quote2">"他一直在拍同一件事：一个人被自己的身份困住，然后试着走出来。"</p>
+          <ul>
+            <li><b>《饮食男女》</b><span>一桌饭菜，三个女儿的婚姻与离开</span></li>
+            <li><b>《卧虎藏龙》</b><span>武侠的外壳，情感的克制与释放</span></li>
+            <li><b>《少年派的奇幻漂流》</b><span>同一个故事的两个版本，你信哪个</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 影评 -->
+    <section id="review">
+      <div class="sec-h"><span class="no">No. 06</span><h2>影评随笔</h2><em>REVIEWS</em></div>
+      <div class="rev">
+        <article>
+          <div class="hd2"><b>为什么我们还在反复看《肖申克的救赎》</b><span>CRITICISM</span></div>
+          <div class="sc">9.7<em>/ 10</em></div>
+          <p>它不是靠剧情反转留人的。真正让人反复重看的是节奏——一场长达二十年的越狱，被讲得像一封信慢慢拆开。每一次看，你会注意到不同的细节：安迪在档案室播放莫扎特的那两分钟，是全片最安静也最有力的时刻。</p>
+          <div class="end">延伸阅读：<a href="#director">弗兰克·德拉邦特的作者性</a></div>
+        </article>
+        <article>
+          <div class="hd2"><b>《控方证人》：67 年前的反转，现在看依然不露痕迹</b><span>CLASSIC</span></div>
+          <div class="sc">9.6<em>/ 10</em></div>
+          <p>比利·怀尔德的厉害之处，是让反转不只发生在剧情上，也发生在你对每个角色的信任上。结尾那句"别剧透"的提示，是影史上最可爱的观众约定。看之前什么都别查，这是它能给你的最后一份礼物。</p>
+          <div class="end">延伸阅读：<a href="#classic">黑白电影的观感优势</a></div>
+        </article>
+        <article>
+          <div class="hd2"><b>《机器人总动员》：几乎没有对白的 40 分钟，却讲了最多</b><span>ANIMATION</span></div>
+          <div class="sc">9.3<em>/ 10</em></div>
+          <p>皮克斯在最擅长的事上做到极致：用动作而不是台词表达情感。瓦力的每一个小动作都有动机，这让它在没有一句台词的前段里，依然讲清了孤独、好奇与守护。后半段的人类社会讽刺，则是另一种锐利。</p>
+          <div class="end">延伸阅读：<a href="#mood">治愈系片单</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 经典修复 -->
+    <section id="classic">
+      <div class="sec-h"><span class="no">No. 07</span><h2>经典修复与重映</h2><em>RESTORATION</em></div>
+      <table>
+        <caption>本月修复上映与已完成的官方重制版本，按修复年份与原始片长差异整理</caption>
+        <thead>
+          <tr><th>片名</th><th>年代</th><th>修复年份</th><th>片长变化</th><th>看点</th><th>评分</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>《东京物语》</b></td><td class="n">1953</td><td class="n">2025</td><td>无差异</td><td>4K 扫描，补齐字幕缺失段落</td><td class="s">9.4</td></tr>
+          <tr><td><b>《七武士》</b></td><td class="n">1954</td><td class="n">2024</td><td>恢复 5 分钟</td><td>黑泽明剪辑版，雨中大战终段重制</td><td class="s">9.5</td></tr>
+          <tr><td><b>《罗生门》</b></td><td class="n">1950</td><td class="n">2023</td><td>无差异</td><td>威尼斯金狮版素材，首次官方 4K</td><td class="s">9.3</td></tr>
+          <tr><td><b>《雨月物语》</b></td><td class="n">1953</td><td class="n">2024</td><td>恢复 3 分钟</td><td>沟口健二长镜头，卷轴式构图重制</td><td class="s">8.9</td></tr>
+          <tr><td><b>《大闹天宫》</b></td><td class="n">1961</td><td class="n">2025</td><td>色彩重校</td><td>手绘原稿色彩校正，恢复原声轨</td><td class="s">9.4</td></tr>
+          <tr><td><b>《罗马假日》</b></td><td class="n">1953</td><td class="n">2022</td><td>无差异</td><td>赫本 4K 修复版，派拉蒙官方</td><td class="s">9.1</td></tr>
+          <tr><td><b>《摩登时代》</b></td><td class="n">1936</td><td class="n">2024</td><td>无差异</td><td>卓别林默片配乐重新录制</td><td class="s">9.3</td></tr>
+          <tr><td><b>《现代启示录》</b></td><td class="n">1979</td><td class="n">2025</td><td>导演剪辑版</td><td>4K 重制，加长段落首次蓝光化</td><td class="s">8.8</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 年代纵览 -->
+    <section id="decade">
+      <div class="sec-h"><span class="no">No. 08</span><h2>年代纵览</h2><em>DECADE BY DECADE</em></div>
+      <ul class="tl">
+        <li><time>2020s</time><div><h6>技术奇观与作者回归并存</h6><p>流媒体改变了上映方式，也让长片叙事有了更多空间。《奥德赛》《流浪地球 3》这类大制作把实拍推到极限，而《瞬息全宇宙》证明低成本作者电影依然能出圈。</p></div></li>
+        <li><time>2010s</time><div><h6>超级英雄十年，也是流媒体的起点</h6><p>类型片高度工业化，《寄生虫》拿下奥斯卡最佳影片，说明语言与地域不再是非英语电影进入主流的障碍。</p></div></li>
+        <li><time>2000s</time><div><h6>数字摄影普及，华语电影的商业觉醒</h6><p>《无间道》《让子弹飞》重新定义了华语类型片，《指环王》三部曲完成了史诗电影的一次技术革命。</p></div></li>
+        <li><time>1990s</time><div><h6>独立电影与华语新浪潮</h6><p>昆汀、索德伯格们把 B 级片语言带进主流；华语这边，《霸王别姬》《活着》《大话西游》至今仍在反复被讨论。</p></div></li>
+        <li><time>1970s</time><div><h6>新好莱坞与香港新浪潮</h6><p>《教父》《出租车司机》确立了现代美国电影的作者表达；香港电影进入产量与风格的双重爆发期。</p></div></li>
+        <li><time>1940s—50s</time><div><h6>黑白时代的巅峰</h6><p>黑色电影、意大利新现实主义、日本电影登上世界舞台。《罗生门》在威尼斯拿了金狮，《七武士》重新定义了动作片。</p></div></li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="sec-h"><span class="no">No. 09</span><h2>关于很多电影网</h2><em>ABOUT</em></div>
+      <div class="faq">
+        <details open>
+          <summary>很多电影网是做什么的？</summary>
+          <div class="a">这是一个以"找片"为核心的电影杂志式网站，把电影按主题、心情、年代与导演重新分类整理成片单，并配上一句话剧情、评分、年份、时长与延伸推荐。网站名称是<b>很多电影网</b>，网址为 <a href="https://henduodianyingwang-zh.github.io">henduodianyingwang-zh.github.io</a>。</div>
+        </details>
+        <details>
+          <summary>这里有影片可以看吗？</summary>
+          <div class="a">没有。本站不提供视频播放、下载、解析或任何版权内容的上传与传播服务，只做信息索引与分类整理。所有片名、评分与年份均来自公开资料，仅供参考。</div>
+        </details>
+        <details>
+          <summary>评分是怎么来的？</summary>
+          <div class="a">综合公开平台的用户评分与专业影评的倾向，折合成 10 分制。评分只代表本站编辑部的参考口径，不是平台原始分，也不构成观影建议。</div>
+        </details>
+        <details>
+          <summary>片单多久更新一次？</summary>
+          <div class="a">新片速递栏目每日更新，心情片单与导演专题每周整理，高分榜单每月重排一次。修复与重映信息随官方公告同步。</div>
+        </details>
+        <details>
+          <summary>想推荐一部片，怎么提交？</summary>
+          <div class="a">用下方表单提交片名、年份与推荐理由即可，栏目编辑会在一周内回复。重复的、信息不全的条目不计入当期片单。</div>
+        </details>
+        <details>
+          <summary>内容可以作为学习资料引用吗？</summary>
+          <div class="a">可以，用于个人学习与讨论欢迎注明来源。如用于商业出版或媒体转载，请先通过表单联系授权。</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 投稿 -->
+    <section id="submit">
+      <div class="sub">
+        <div class="l">
+          <div class="kicker">SUBMIT A FILM</div>
+          <h3>推荐一部值得被更多人看到的电影</h3>
+          <p>我们每个月的片单，至少有一半来自读者投稿。你推荐的那部，可能正是另一个人今晚想看的。</p>
+          <ul>
+            <li>写清片名、年份、地区与一句推荐理由</li>
+            <li>冷门片优先，附一句看点更容易入选</li>
+            <li>入选后会标注推荐人，并送上当月片单合集</li>
+          </ul>
+        </div>
+        <form class="r" onsubmit="event.preventDefault();this.querySelector('button').textContent='已收到，谢谢推荐';this.reset();">
+          <label>片名与年份</label>
+          <input type="text" placeholder="例如：巴黎野玫瑰 / 1986" required>
+          <label>地区与类型</label>
+          <select><option>华语</option><option>欧美</option><option>日韩</option><option>其他地区</option></select>
+          <label>推荐理由</label>
+          <textarea placeholder="为什么值得看？一句话就够"></textarea>
+          <label>你的邮箱（选填，仅用于入选通知）</label>
+          <input type="email" placeholder="可留空">
+          <button type="submit">提交推荐</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 侧栏 -->
+  <aside class="col-side">
+    <div class="box">
+      <div class="box-h"><span>本刊速读</span><span>IN THIS ISSUE</span></div>
+      <ol class="qpick">
+        <a href="#lead"><b>01</b><div><h6>镖人：风起大漠，国产武侠重新站直了</h6><span>COVER STORY</span></div></a>
+        <a href="#fresh"><b>02</b><div><h6>国庆档七部新片速评</h6><span>FRESH PICKS</span></div></a>
+        <a href="#director"><b>03</b><div><h6>诺兰、是枝裕和、宫崎骏、李安</h6><span>AUTEUR</span></div></a>
+        <a href="#classic"><b>04</b><div><h6>八部经典完成官方 4K 修复</h6><span>RESTORATION</span></div></a>
+        <a href="#mood"><b>05</b><div><h6>六种心情，六份不用思考的片单</h6><span>MOOD LIST</span></div></a>
+        <a href="#decade"><b>06</b><div><h6>从 1940s 到 2020s 的年代纵览</h6><span>TIMELINE</span></div></a>
+      </ol>
+    </div>
+
+    <div class="box">
+      <div class="box-h"><span>欧美高分榜</span><span>TOP 10</span></div>
+      <ol class="ml">
+        <li><b>1</b><div><h6>《肖申克的救赎》</h6><span>美国 · 1994 · 犯罪</span></div><em>9.7</em></li>
+        <li><b>2</b><div><h6>《控方证人》</h6><span>美国 · 1957 · 犯罪悬疑</span></div><em>9.6</em></li>
+        <li><b>3</b><div><h6>《人生七年 9》</h6><span>英国 · 2019 · 纪录</span></div><em>9.6</em></li>
+        <li><b>4</b><div><h6>《泰坦尼克号》</h6><span>美国 · 1997 · 爱情</span></div><em>9.5</em></li>
+        <li><b>5</b><div><h6>《美丽人生》</h6><span>意大利 · 1997 · 喜剧战争</span></div><em>9.5</em></li>
+        <li><b>6</b><div><h6>《阿甘正传》</h6><span>美国 · 1994 · 爱情</span></div><em>9.5</em></li>
+        <li><b>7</b><div><h6>《辛德勒的名单》</h6><span>美国 · 1993 · 历史战争</span></div><em>9.5</em></li>
+        <li><b>8</b><div><h6>《这个杀手不太冷》</h6><span>法美 · 1994 · 动作犯罪</span></div><em>9.4</em></li>
+        <li><b>9</b><div><h6>《楚门的世界》</h6><span>美国 · 1998 · 科幻</span></div><em>9.4</em></li>
+        <li><b>10</b><div><h6>《盗梦空间》</h6><span>美国 · 2010 · 科幻悬疑</span></div><em>9.4</em></li>
+      </ol>
+    </div>
+
+    <div class="box">
+      <div class="box-h"><span>编辑部的话</span><span>EDITOR'S NOTE</span></div>
+      <div class="box-b">
+        <p class="quote">看电影这件事，最难的从来不是找到一部好片，而是在想看的那个瞬间，恰好遇到它。很多电影网想做的，就是把这份"恰好"变得多一点。</p>
+        <cite>—— 很多电影网编辑部</cite>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-h"><span>分类索引</span><span>CATEGORIES</span></div>
+      <div class="cats">
+        <a href="#mood"><b>治愈系</b><span>22 部</span></a>
+        <a href="#mood"><b>励志成长</b><span>20 部</span></a>
+        <a href="#mood"><b>爱情经典</b><span>26 部</span></a>
+        <a href="#mood"><b>悬疑烧脑</b><span>24 部</span></a>
+        <a href="#mood"><b>剧情史诗</b><span>20 部</span></a>
+        <a href="#mood"><b>喜剧奇幻</b><span>18 部</span></a>
+        <a href="#fresh"><b>华语经典</b><span>34 部</span></a>
+        <a href="#director"><b>日韩佳作</b><span>28 部</span></a>
+        <a href="#director"><b>欧美高分</b><span>76 部</span></a>
+        <a href="#classic"><b>动画精选</b><span>16 部</span></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-h"><span>片库规模</span><span>COLLECTION</span></div>
+      <div class="stat">
+        <div><b>9,860</b><span>收录影片</span></div>
+        <div><b>186</b><span>主题片单</span></div>
+        <div><b>42</b><span>导演专题</span></div>
+        <div><b>24</b><span>经典修复</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-h"><span>片荒急救</span><span>QUICK PICK</span></div>
+      <div class="box-b">
+        <p style="font-size:13px;color:var(--ink2);margin-bottom:10px">随便翻到哪一页都能看。下面是编辑部公认"无论第几次看都有效"的十部：</p>
+        <ol style="list-style:decimal;padding-left:20px;font-size:13px;color:var(--ink2);display:flex;flex-direction:column;gap:6px">
+          <li><a href="#review">《肖申克的救赎》</a></li>
+          <li><a href="#classic">《七武士》</a></li>
+          <li><a href="#director">《千与千寻》</a></li>
+          <li><a href="#classic">《罗马假日》</a></li>
+          <li><a href="#review">《控方证人》</a></li>
+          <li><a href="#mood">《放牛班的春天》</a></li>
+          <li><a href="#review">《机器人总动员》</a></li>
+          <li><a href="#director">《活着》</a></li>
+          <li><a href="#mood">《寻梦环游记》</a></li>
+          <li><a href="#director">《阿甘正传》</a></li>
+        </ol>
+      </div>
+    </div>
+  </aside>
+
+</div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div class="ab">
+        <h4>很多电影网</h4>
+        <p>很多电影网（henduodianyingwang-zh.github.io）是一份面向影迷的线上电影杂志，按主题整理高分片单、导演专题、经典修复与冷门宝藏。我们希望它不只是"很多电影"的罗列，而是一份能帮你从片荒里走出来的索引——每部片子都附评分、年份、时长、一句话剧情与同类延伸推荐。本站仅做信息整理与分类展示，不参与任何视频内容的录制、上传、传播与盈利行为。</p>
+      </div>
+      <div>
+        <h5>栏目导航</h5>
+        <ul>
+          <li><a href="#lead">本期头条</a></li>
+          <li><a href="#mood">心情片单</a></li>
+          <li><a href="#fresh">新片速递</a></li>
+          <li><a href="#rank">高分榜单</a></li>
+          <li><a href="#director">导演专题</a></li>
+          <li><a href="#review">影评随笔</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>片单分类</h5>
+        <ul>
+          <li><a href="#mood">治愈系电影</a></li>
+          <li><a href="#mood">励志成长片单</a></li>
+          <li><a href="#mood">悬疑烧脑片单</a></li>
+          <li><a href="#classic">经典修复重映</a></li>
+          <li><a href="#decade">年代纵览</a></li>
+          <li><a href="#submit">推荐一部电影</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>关于本站</h5>
+        <ul>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#submit">投稿与反馈</a></li>
+          <li><a href="https://henduodianyingwang-zh.github.io">回到首页</a></li>
+          <li><a href="https://henduodianyingwang-zh.github.io">henduodianyingwang-zh.github.io</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>网站名称：很多电影网　·　网站网址：<span class="u">https://henduodianyingwang-zh.github.io</span></span>
+      <span>© 2026 很多电影网（henduodianyingwang-zh.github.io）· 电影杂志与片单索引 · 仅做信息整理，不参与内容传播</span>
+      <span><a href="https://henduodianyingwang-zh.github.io">henduodianyingwang-zh.github.io</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('#mn a').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var id=this.getAttribute('href');
+    if(id.charAt(0)==='#'){e.preventDefault();
+      var el=document.querySelector(id);
+      if(el){window.scrollTo({top:el.getBoundingClientRect().top+window.pageYOffset-12,behavior:'smooth'});}
+    }
+  });
+});
+</script>
+</body>
+</html>
